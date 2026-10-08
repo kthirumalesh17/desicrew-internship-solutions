@@ -7,13 +7,22 @@ Three solutions built for the DesiCrew Data Science Intern evaluation round.
 ## Setup
 
 ```bash
+git clone https://github.com/kthirumalesh17/desicrew-internship-solutions
+cd desicrew-internship-solutions
+
+# Create and activate virtual environment (required on macOS)
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
 Set your **Google Gemini API Key** as an environment variable:
 
 ```bash
-export GEMINI_API_KEY="your-key-here"
+export GEMINI_API_KEY="your-key-here"   # macOS/Linux
+# set GEMINI_API_KEY=your-key-here      # Windows
 ```
 
 Or enter it in the Streamlit sidebar at runtime. Q3 requires no API key.
