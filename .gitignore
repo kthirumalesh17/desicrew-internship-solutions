@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Streamlit
+.streamlit/
+
+# dotenv
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Zip artifacts
+*.zip
